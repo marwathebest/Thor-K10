@@ -1,5 +1,5 @@
 /*
-  Qatwti K10  v2  —  قطوتي
+  Thor K10  v2  —  ثور
   UNIHIKER K10 (Arduino IDE) — landscape 320x240
 
   A  (short)      : +1 hour      (hold = fast)
@@ -538,7 +538,7 @@ void drawStatusBar() {
     CV->canvasText(s, 312 - (int)s.length() * 8, 4, th.inkBg, CV->eCNAndENFont16, 50, false);
   }
 #else
-  CV->canvasText("Qatwti", 262, 4, th.inkBg, CV->eCNAndENFont16, 50, false);
+  CV->canvasText("Thor", 262, 4, th.inkBg, CV->eCNAndENFont16, 50, false);
 #endif
 }
 
@@ -1035,7 +1035,7 @@ void setup() {
   k10.rgb->write(-1, PINK2);
 #if ENABLE_SENSORS
   aht20 = new AHT20();
-  prefs.begin("qatwti", false);
+  prefs.begin("thor", false);
   tempOffset = prefs.getFloat("tOff", TEMP_OFFSET);
 #endif
   randomSeed(micros());
@@ -1050,7 +1050,7 @@ void setup() {
     if (ok) toast("time synced!", 3000);
     else if (!pcTimeArrived) toast(wifiProblem.c_str(), 6000);
   } else {
-    toast("hi! I'm Qatwti", 2500);
+    toast("hi! I'm Thor", 2500);
   }
   lastSyncTry = millis();
   lastHour = currentSeconds() / 3600UL;

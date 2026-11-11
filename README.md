@@ -1,6 +1,6 @@
-# Qatwti K10 — قطوتي 🐱
+# Thor K10 — ثور 🐱
 
-A cute desk clock for the **UNIHIKER K10** with a little cat that lives under the clock and reacts to how you move the board.
+A cute cat desk clock for the **UNIHIKER K10** with a little cat that lives under the clock and reacts to how you move the board.
 
 Written for the Arduino IDE. Landscape screen, 320×240. No microSD card needed.
 
@@ -39,7 +39,7 @@ Written for the Arduino IDE. Landscape screen, 320×240. No microSD card needed.
 ## Getting started
 
 1. Install the Arduino IDE and add the UNIHIKER K10 board by following the [official guide](https://www.unihiker.com/wiki/K10/GettingStarted/gettingstarted_arduinoide/).
-2. Download this repository and open `Qatwti_K10/Qatwti_K10.ino`. The file must stay inside a folder named `Qatwti_K10`.
+2. Download this repository and open `Thor_K10/Thor_K10.ino`. The file must stay inside a folder named `Thor_K10`.
 3. Choose the board **unihiker k10** and the right port.
 4. Press **Upload**.
 
@@ -49,7 +49,7 @@ If the screen stays black after uploading, see the [K10 FAQ](https://www.unihike
 
 The clock picks the best source it has, in this order.
 
-**1. WiFi (automatic).** Copy `Qatwti_K10/wifi_secrets.example.h` to `Qatwti_K10/wifi_secrets.h` and write your network name and password in it, then upload. The clock now sets itself every time the board turns on, and checks again twice a day. The network must be 2.4 GHz. `wifi_secrets.h` is in `.gitignore`, so your password is never uploaded with the code. If your timezone is not UTC+3, change `TIMEZONE_HOURS` at the top of the sketch.
+**1. WiFi (automatic).** Copy `Thor_K10/wifi_secrets.example.h` to `Thor_K10/wifi_secrets.h` and write your network name and password in it, then upload. The clock now sets itself every time the board turns on, and checks again twice a day. The network must be 2.4 GHz. `wifi_secrets.h` is in `.gitignore`, so your password is never uploaded with the code. If your timezone is not UTC+3, change `TIMEZONE_HOURS` at the top of the sketch.
 
 **2. From your computer over USB (Windows).** Plug the board in, close the Serial Monitor, and double-click `SET_TIME.bat`. The screen shows "time from PC!".
 
@@ -57,7 +57,7 @@ The clock picks the best source it has, in this order.
 
 ## Settings
 
-All at the top of `Qatwti_K10.ino`.
+All at the top of `Thor_K10.ino`.
 
 | Setting | Meaning |
 | --- | --- |
@@ -74,8 +74,8 @@ The board warms its own temperature sensor, so the reading is usually a few degr
 ## Files
 
 ```
-Qatwti_K10/
-  Qatwti_K10.ino            the whole sketch
+Thor_K10/
+  Thor_K10.ino            the whole sketch
   wifi_secrets.example.h    template for your WiFi name and password
 SET_TIME.bat                double-click to send the PC's time to the board
 set_time.ps1                the script behind SET_TIME.bat
@@ -87,7 +87,7 @@ set_time.ps1                the script behind SET_TIME.bat
 
 ## بالعربي
 
-**قطوتي K10** ساعة مكتب كيوت للوحة UNIHIKER K10، فيها قطوة صغيرة تعيش تحت الساعة وتتفاعل مع حركة الجهاز.
+**ثور K10** ساعة مكتب كيوت للوحة UNIHIKER K10، فيها قطوة صغيرة تعيش تحت الساعة وتتفاعل مع حركة الجهاز.
 
 ### القطوة تحس بالحركة
 
@@ -110,7 +110,7 @@ set_time.ps1                the script behind SET_TIME.bat
 ### طريقة التشغيل
 
 1. ثبّتي Arduino IDE وأضيفي لوحة UNIHIKER K10 من [الدليل الرسمي](https://www.unihiker.com/wiki/K10/GettingStarted/gettingstarted_arduinoide/).
-2. افتحي الملف `Qatwti_K10/Qatwti_K10.ino` (لازم يبقى داخل مجلد اسمه `Qatwti_K10`).
+2. افتحي الملف `Thor_K10/Thor_K10.ino` (لازم يبقى داخل مجلد اسمه `Thor_K10`).
 3. اختاري لوحة **unihiker k10** والمنفذ الصحيح.
 4. اضغطي **Upload**.
 

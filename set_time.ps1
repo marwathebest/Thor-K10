@@ -57,6 +57,6 @@ if ($ok) {
   Start-Sleep -Seconds 3
   exit 0
 }
-Write-Host "The board did not answer. Upload the new Qatwti_K10 sketch first, then try again." -ForegroundColor Red
+Write-Host "The board did not answer. Upload the new Thor_K10 sketch first, then try again." -ForegroundColor Red
 Start-Sleep -Seconds 8
 exit 1
