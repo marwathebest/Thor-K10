@@ -1,5 +1,7 @@
-# Thor K10  🐱
+<h1 align="center">Thor K10 🐱</h1>
 
-A cat that moves. بسة تتحرك.
+<p align="center">A cat that moves · بسة تتحرك</p>
 
-![Thor K10](demo.gif)
+<p align="center">
+  <a href="demo.mp4"><img src="poster.jpg" width="300" alt="Play the Thor K10 video"></a>
+</p>
