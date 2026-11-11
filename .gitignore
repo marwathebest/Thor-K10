@@ -1,0 +1,7 @@
+# private WiFi name and password
+wifi_secrets.h
+
+# Arduino build output
+build/
+*.bin
+*.elf
