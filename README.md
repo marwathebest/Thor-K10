@@ -1,4 +1,4 @@
-# Qatwti K10 — قطوتي 🐱
+# Qatwti K10  🐱
 
 A cute desk clock for the **UNIHIKER K10** with a little cat that lives under the clock and reacts to how you move the board.
 
